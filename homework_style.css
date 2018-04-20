@@ -1,5 +1,16 @@
 body{
     text-align: center;
-    background-color: blueviolet;
+    background-color: black;
     font-family: 'Times New Roman';
+    color:floralwhite; 
+    list-style-type: circle;    
 }
+    img{
+        border: 7px solid white;
+    }
+  ui{
+      text-align: center;
+  }
+  a {
+        color: red;
+    }
