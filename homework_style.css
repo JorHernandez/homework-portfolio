@@ -1,3 +1,7 @@
+header{
+    background-image: url("https://i.imgur.com/4ykDkYy.jpg");
+    background-size: cover;
+}
 body{
     text-align: center;
     background-color: black;
@@ -6,25 +10,36 @@ body{
     list-style-type: circle;
     size: 60px;    
 }
-header{
-    background-image: url("https://i.imgur.com/4ykDkYy.jpg");
-    background-size: cover;
 
-}
 img{
         border: 7px solid white;
     }
-ul{
+ui{
       text-align: center;
       display: inline-block;
-      padding: 0px;
+      padding: 10px;
       margin: 0 0 0 -2m;
+      font-size: 25px;
   }
 a {
         color: white;
     }
- h2{
-     size: 80px;
+h{
+     
      font-style: italic;
- }   
- 
+     font-size: 100px;
+ } 
+ footer{
+     font-size: 15px;
+     color: blue;
+ }
+ p{
+     font-size: 25px;
+     padding: 0 10px 0 0;
+ }
+ input[type="submit"] {
+    border: 0;
+    font-size: 18px;
+    color: black;
+    background: white;
+  }
