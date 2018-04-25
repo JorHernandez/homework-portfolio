@@ -1,7 +1,9 @@
 header{
     background-image: url("https://i.imgur.com/4ykDkYy.jpg");
     background-size: cover;
+    width: 100%;
 }
+
 body{
     text-align: center;
     background-color: black;
@@ -10,30 +12,33 @@ body{
     list-style-type: circle;
     size: 60px;    
 }
-
 img{
         border: 7px solid white;
+        align: center;
     }
-ui{
+body li{
       text-align: center;
-      display: inline-block;
-      padding: 10px;
-      margin: 0 0 0 -2m;
+      display: block;
       font-size: 25px;
+      list-style-type: circle;      
   }
+ui{
+    list-style-type: circle; 
+}
 a {
         color: white;
     }
-h2{
-     
-     font-style: italic;
+h1{ 
+     font-style: italic; ;
      font-size: 40px;
  } 
  footer{
      font-size: 15px;
      color: blue;
  }
- p{
+
+ }
+ body p{
      font-size: 25px;
      padding: 0 10px 0 0;
  }
@@ -43,3 +48,8 @@ h2{
     color: black;
     background: white;
   }
+  footer a {
+      color: blue;
+      size: 55px;
+  }
+ 
