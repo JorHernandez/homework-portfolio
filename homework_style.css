@@ -1,8 +1,4 @@
-header{
-    background-image: url("https://i.imgur.com/4ykDkYy.jpg");
-    background-size: cover;
-    width: 100%;
-}
+
 p2 {
     text-align: left;
     font-size: 40px;
@@ -18,6 +14,52 @@ body li{
   list-style-type: circle;       
 }
 
+img{
+        border: 7px solid white;
+    }
+
+a {
+        color: white;
+    }
+
+h1{ 
+     font-style: italic; ;
+     font-size: 40px;
+ } 
+
+ }
+ body p{
+     font-size: 25px;
+     padding: 0 10px 0 0;
+ }
+
+ input[type="submit"] {
+    margin: 20px 0;
+    font-size: 18px;
+    color: black;
+    background: white;
+  }
+
+input {
+    margin: 20px 0;
+}
+
+footer a {
+      color: blue;
+      size: 55px;
+  }
+
+.portfolio_image {
+     background-image: url("https://i.imgur.com/dua7Rt4.jpg");
+     text-align: center;
+     margin-left: 10%;
+ }
+
+ .portfolio_image {
+    background-image: url("https://i.imgur.com/dua7Rt4.jpg");
+    text-align: center;
+    margin-left: 10%;
+}
 body{
     text-align: center;
     background-color: black;
@@ -26,42 +68,14 @@ body{
     list-style-type: circle;
     size: 60px;    
 }
-img{
-        border: 7px solid white;
-    }
 
-a {
-        color: white;
-    }
-h1{ 
-     font-style: italic; ;
-     font-size: 40px;
- } 
- footer{
-     font-size: 20px;
-     color: blue;
- }
-
- }
- body p{
-     font-size: 25px;
-     padding: 0 10px 0 0;
- }
- input[type="submit"] {
-    margin: 20px 0;
-    font-size: 18px;
-    color: black;
-    background: white;
-  }
-input {
-    margin: 20px 0;
+header{
+    background-image: url("https://i.imgur.com/4ykDkYy.jpg");
+    background-size: cover;
+    width: 100%;
 }
-  footer a {
-      color: blue;
-      size: 55px;
-  }
-/* .portfolio_image {
-     background-image: url("https://i.imgur.com/dua7Rt4.jpg");
-     text-align: center;
-     margin-left: 10%;
- } */
+
+footer{
+    font-size: 20px;
+    color: blue;
+}
