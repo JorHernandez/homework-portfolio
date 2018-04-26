@@ -3,7 +3,10 @@ header{
     background-size: cover;
     width: 100%;
 }
-
+p2 {
+    text-align: left;
+    font-size: 40px;
+}
 body{
     text-align: center;
     background-color: black;
@@ -14,7 +17,6 @@ body{
 }
 img{
         border: 7px solid white;
-        align: center;
     }
 body li{
       text-align: center;
@@ -33,7 +35,7 @@ h1{
      font-size: 40px;
  } 
  footer{
-     font-size: 15px;
+     font-size: 20px;
      color: blue;
  }
 
@@ -52,4 +54,8 @@ h1{
       color: blue;
       size: 55px;
   }
- 
+.portfolio_image {
+     background-image: url("https://i.imgur.com/dua7Rt4.jpg");
+     text-align: center;
+     margin-left: 10%;
+ }
