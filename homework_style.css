@@ -6,7 +6,18 @@ header{
 p2 {
     text-align: left;
     font-size: 40px;
+    
 }
+ul{
+    list-style-type: circle; 
+}
+body li{
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  list-style-type: circle;       
+}
+
 body{
     text-align: center;
     background-color: black;
@@ -18,15 +29,7 @@ body{
 img{
         border: 7px solid white;
     }
-body li{
-      text-align: center;
-      display: block;
-      font-size: 25px;
-      list-style-type: circle;      
-  }
-ui{
-    list-style-type: circle; 
-}
+
 a {
         color: white;
     }
@@ -45,17 +48,20 @@ h1{
      padding: 0 10px 0 0;
  }
  input[type="submit"] {
-    border: 0;
+    margin: 20px 0;
     font-size: 18px;
     color: black;
     background: white;
   }
+input {
+    margin: 20px 0;
+}
   footer a {
       color: blue;
       size: 55px;
   }
-.portfolio_image {
+/* .portfolio_image {
      background-image: url("https://i.imgur.com/dua7Rt4.jpg");
      text-align: center;
      margin-left: 10%;
- }
+ } */
